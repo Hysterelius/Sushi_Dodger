@@ -3,6 +3,7 @@ import os
 import time
 import ctypes
 import pygame.freetype
+import platform
 
 import sshi_core as core
 import sshi_graphics as grph
@@ -359,7 +360,8 @@ def make_screen():
     pygame.display.set_icon(icon)
     myappid = 'mycompany.myproduct.subproduct.version'
     # allows for taskbar icon to be changed
-    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+    if platform.system() == 'Windows':
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     pygame.display.set_caption("Sushi Dodger")
     screen = pygame.display.set_mode((256, 256), flags=pygame.RESIZABLE
                                      | pygame.SCALED)
