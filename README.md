@@ -78,6 +78,9 @@ python sshi_base.py
 ## Usage:
 You can use Sushi_Dodger to play an afternoon away or you can improve on this program with pull requests.
 
+Special keys:
+- <kbd>F5</kbd>: use the restart item (moves all sushi's away from you)
+
 ## Credits:
 Entirely made by [Hystersis](https://github.com/Hystersis).
 

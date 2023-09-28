@@ -84,7 +84,7 @@ class M_credits(M_page):
         m(self)
 
         self.group = pygame.sprite.Group()
-        self.group.add(Button((0, 0), (256, 24), (0, 0, 0), '(c) Hystersis', void, True))
+        self.group.add(Button((0, 0), (256, 24), (0, 0, 0), '(c) Hysterelius', void, True))
         self.group.add(Button((0, 24), (256, 24), (0, 0, 0), 'Original idea', void, True))
         self.group.add(Button((0, 48), (256, 24), (0, 0, 0), 'Original design in Lua', void, True))
 
