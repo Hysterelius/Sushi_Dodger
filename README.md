@@ -70,7 +70,7 @@ Python 3.9 installed on your machine, which can be downloaded [here](https://wik
 ## Terminal:
 
 ```
-git clone https://github.com/Hystersis/Sushi_Dodger.git
+git clone https://github.com/Hysterelius/Sushi_Dodger.git
 pip install -r requirements.txt
 python sshi_base.py
 ```
@@ -82,7 +82,7 @@ Special keys:
 - <kbd>F5</kbd>: use the restart item (moves all sushi's away from you)
 
 ## Credits:
-Entirely made by [Hystersis](https://github.com/Hystersis).
+Entirely made by [Hysterelius](https://github.com/Hysterelius).
 
 ### Music:
 
@@ -100,4 +100,4 @@ What that means is that:
 
 *Disclaimer: This is not legal advice, read the full [license](https://www.gnu.org/licenses/agpl-3.0.en.html) for details*
 
-[AGPL-3.0](/LICENSE) **Copyright** [Hystersis](https://github.com/Hystersis)
+[AGPL-3.0](/LICENSE) **Copyright** [Hysterelius](https://github.com/Hysterelius)
